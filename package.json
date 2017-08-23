@@ -1,0 +1,19 @@
+{
+  "name": "cihm-cookie-authorizer",
+  "version": "1.0.0",
+  "description": "Service for authorizing access cookies",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ."
+  },
+  "repository": "https://github.com/c7a/cihm-cookie-authorizer",
+  "author": "Sascha Adler <sascha.adler@canadiana.ca>",
+  "license": "MIT",
+  "dependencies": {
+    "cihm-jwt": "https://github.com/c7a/cihm-jwt.git#v1.0.0",
+    "kcors": "^2.2.1",
+    "koa": "^2.3.0",
+    "koa-onerror": "^3.1.0",
+    "njwt": "^0.4.0"
+  }
+}

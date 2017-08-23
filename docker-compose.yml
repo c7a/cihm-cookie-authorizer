@@ -1,0 +1,9 @@
+version: "3"
+
+services:
+  cihm-cookie-authorizer:
+    build: .
+    image: cihm-cookie-authorizer:latest
+    command: yarn run start
+    ports:
+      - "4000:3000"
